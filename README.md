@@ -2,7 +2,7 @@
 
 Private owner-only static Site for Malaysian car cash-flow decisions. Source assets are in `dist/`; no build or dependencies are required. Hosting identity is in `.openai/hosting.json`.
 
-The site compares up to six session-only scenarios. There is no browser persistence, analytics or external data fetching. Default salary is RM6,950; car values are illustrative and explicitly editable. Inputs reset on refresh.
+The site compares up to six session-only scenarios. There is no browser persistence, analytics or external data fetching.  car values are illustrative and explicitly editable. Inputs reset on refresh.
 
 `dist/calc.mjs` owns numeric validation and calculations. `dist/app.js` renders the interface and uses that same calculation module. It feature-detects browser WebMCP and registers read/configure tools; configuration validates all changes before mutating state.
 
